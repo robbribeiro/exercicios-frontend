@@ -1,0 +1,27 @@
+body {
+    margin: 20px;
+}
+
+ul, ol {
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+}
+
+dl, dd {
+    margin: 0px;
+}
+
+.navegacao{
+    display: flex;
+    gap: 20px;
+}
+
+.navegacao a {
+    text-decoration: none;
+    background: #eee;
+    padding: 10px 20px;
+    display: block;
+    color: #000;
+    border-radius: 5px;
+}
